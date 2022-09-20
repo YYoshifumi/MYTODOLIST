@@ -19,7 +19,7 @@
                     </div>
                 </div>
                 
-                @if(Auth:check())
+                @if(Auth::check())
                 <div class="panel-heading">
                     まずはフォルダを作成してください。
                 </div>
